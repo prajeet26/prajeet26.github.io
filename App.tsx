@@ -48,7 +48,7 @@ const App: React.FC = () => {
           >
             <h1 className="text-4xl lg:text-5xl font-bold text-neutral-900 dark:text-neutral-100 mb-8">Aloha!</h1>
             
-           <div className="prose prose-lg text-neutral-700 dark:text-neutral-300 prose-headings:text-neutral-900 dark:prose-headings:text-neutral-100 prose-a:text-primary dark:prose-invert leading-relaxed space-y-6">
+           <div className="prose prose-base text-neutral-700 dark:text-neutral-300 prose-headings:text-neutral-900 dark:prose-headings:text-neutral-100 prose-a:text-primary dark:prose-invert leading-relaxed space-y-6">
 
   <p>
     I am a Research Associate at the IACV Lab, IISc Bangalore, advised by Prof.&nbsp;
@@ -57,9 +57,9 @@ const App: React.FC = () => {
       className="text-primary font-medium hover:text-primaryHover underline decoration-primary/30 underline-offset-4 transition-colors"
     >
       Soma Biswas
-    </a>.
-  My research focuses on improving the reasoning and reliability of large-scale vision and language systems,
-  with an emphasis on real-world, noisy, and culturally grounded data.
+    </a> .
+ My research focuses on reasoning abilities of vision–language models (VLMs),
+with an emphasis on abstract, noisy, and culturally grounded real-world data, alongside emerging work on adversarial robustness in multimodal systems.
   <br />
   <br />
   My work spans across:
@@ -74,7 +74,19 @@ const App: React.FC = () => {
         className="text-primary font-medium hover:text-primaryHover underline decoration-primary/30 underline-offset-4 transition-colors"
       >
         VAANI
-      </a>,{' '} by Google, working across noisy, culturally diverse multimodal data (vision,
+      </a>,{' '} by Google (advised by Prof. {' '}
+      <a
+        href="http://leap.ee.iisc.ac.in/sriram/"
+        className="text-primary font-medium hover:text-primaryHover underline decoration-primary/30 underline-offset-4 transition-colors"
+      >
+        Sriram Ganapthy
+      </a>{' '} and {' '}
+      <a
+        href="https://parthatalukdar.github.io/"
+        className="text-primary font-medium hover:text-primaryHover underline decoration-primary/30 underline-offset-4 transition-colors"
+      >
+        Dr. Partha Talukdar
+      </a>{' '}), working across noisy, culturally diverse multimodal data (vision,
 speech, text) to quantify how MLMMs/VLMs interpret Indian images vs. human perception. 
     </li>
     <li>

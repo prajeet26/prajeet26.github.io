@@ -111,7 +111,7 @@ export const RESEARCH_PAPERS: ResearchPaper[] = [
     title: "MedProm: Bridging Dialogue Gaps in Healthcare with Knowledge-Enhanced Generative Models",
     venue: "ACM Transactions on Computing for Healthcare",
     paperUrl: "https://dl.acm.org/doi/10.1145/3715069",
-    imageUrl: image1, // Placeholder for ./images/p2.png
+    imageUrl: image2, // Placeholder for ./images/p2.png
     description: "MedProm is a knowledge-enhanced generative model for medical dialogue systems, integrating the MediConnect Graph to improve context-aware responses. It leverages BioGPT and curriculum learning for precise, coherent, and medically relevant conversations.",
     collaborators: ["D Varshney", "N Behera", "P Katari", "A Ekbal"],
   },
@@ -120,7 +120,7 @@ export const RESEARCH_PAPERS: ResearchPaper[] = [
     title: "Multimodal BERT for Identifying Claims in Tweets",
     venue: "CLEF 2022, Bologna, Italy",
     paperUrl: "https://ceur-ws.org/Vol-3180/paper-55.pdf",
-    imageUrl:image2, // Placeholder for ./images/p1.png
+    imageUrl:image1, // Placeholder for ./images/p1.png
     description: "A Multimodal BERT-based approach for identifying claim check-worthiness, verifiability, and harmful content in tweets, achieving top-3 ranks in CheckThat! Lab 2022.",
     collaborators: ["M Suri", "P Katari", "S Dudeja"],
   },
