@@ -110,7 +110,7 @@ export const RESEARCH_PAPERS: ResearchPaper[] = [
     id: "p1",
     title: "MedProm: Bridging Dialogue Gaps in Healthcare with Knowledge-Enhanced Generative Models",
     venue: "ACM Transactions on Computing for Healthcare",
-    paperUrl: "/files/MedProm_Paper.pdf",
+    paperUrl: "https://dl.acm.org/doi/10.1145/3715069",
     imageUrl: image1, // Placeholder for ./images/p2.png
     description: "MedProm is a knowledge-enhanced generative model for medical dialogue systems, integrating the MediConnect Graph to improve context-aware responses. It leverages BioGPT and curriculum learning for precise, coherent, and medically relevant conversations.",
     collaborators: ["D Varshney", "N Behera", "P Katari", "A Ekbal"],
