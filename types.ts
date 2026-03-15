@@ -17,11 +17,12 @@ export interface NewsItem {
 export interface ResearchPaper {
   id: string;
   title: string;
-  venue: string;
-  paperUrl: string;
-  imageUrl: string;
+  venue?: string;
+  paperUrl?: string;
+  imageUrl?: string;
   description: string;
   collaborators: string[];
+  linkLabel?: string;
 }
 
 export interface NavbarItem {

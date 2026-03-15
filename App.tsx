@@ -92,20 +92,17 @@ speech, text) to quantify how MLMMs/VLMs interpret Indian images vs. human perce
     <li>
       LLM-guided Active Learning for Multimodal Analysis of open source information.
     </li>
+    <li>
+      Bias theme detection and concept-erasure interpretability in multilingual MLLMs, with a current focus on misogyny detection and culturally grounded safety analysis in Hindi.
+    </li>
   </ul>
 
               <p>
-                Before starting my time at IISc, I had also worked as a data intern at{' '}
-                <a href="https://datafinz.com/" className="text-primary font-medium hover:text-primaryHover underline decoration-primary/30 underline-offset-4 transition-colors">
-                  DataFinz
-                </a>{' '}
-                building efficient stage-wise processes by implementing an end-to-end ETL pipeline. I'm currently 
-                also a Researcher collaborating with{' '}
+                I previously collaborated with{' '}
                 <a href="https://www.linkedin.com/in/deeksha-varshney-5922b57b/" className="text-primary font-medium hover:text-primaryHover underline decoration-primary/30 underline-offset-4 transition-colors">
                   Deeksha Varshney
                 </a>{' '}
-                at IIT Patna. This is where I collaborated on MedProm, designed to generate contextually relevant 
-                medical insights for dialogue systems.
+                at IIT Patna on medical dialogue systems such as MedProm, and I am currently working on misogyny detection, bias theme detection, and concept-erasure interpretability in multilingual MLLMs.
               </p>
 
               <p className="font-medium text-neutral-800 dark:text-neutral-200 italic border-l-4 border-primary/20 pl-4 py-1">

@@ -105,15 +105,56 @@ export const NEWS_ITEMS: NewsItem[] = [
 ];
 import image1 from "./images/p1.png" ;
 import image2 from "./images/p2.png" ;
+import daminiImage from "./assets/damini.png";
+import hybridNetImage from "./assets/hybridnet.png";
+import alarmImage from "./assets/alarm.png";
+import seeBothImage from "./assets/seeboth.png";
 export const RESEARCH_PAPERS: ResearchPaper[] = [
+  {
+    id: "p3",
+    title: "See Both Ways: A Bidirectional Evaluation of Multimodal Language Models and Human Spontaneous Speech for Image Captioning",
+    paperUrl: "",
+    imageUrl: seeBothImage,
+    description: "This work introduces a bidirectional evaluation framework for image captioning that treats both human spontaneous speech and multimodal language model outputs as valid reference spaces rather than forcing comparison to a single canonical caption. Across datasets derived from VAANI and Places Audio Captions, the analysis shows that humans produce sharper, selectively grounded descriptions while contemporary MLLMs favor broader coverage that can drift into unsupported detail, exposing a measurable gap between machine-generated descriptions and human perceptual salience.",
+    collaborators: ["P Katari", "D Eledath", "P Agrawal", "S Biswas", "S Ganapathy"],
+    linkLabel: "Request Access",
+  },
+  {
+    id: "p4",
+    title: "On the Limits of Multilingual LLMs for Misogyny Detection in Hindi",
+    paperUrl: "",
+    imageUrl: daminiImage,
+    description: "We study multilingual large language models on misogyny detection in Hindi through DAMINI, a manually curated dataset of Hindi YouTube comments annotated across seven misogyny categories spanning hostility, stereotyping, sexual harassment, and coercive behavior. Evaluations under zero-shot and few-shot settings reveal a recurring safety bias in which high-severity and implicit abuse is disproportionately missed; to quantify this failure mode, we introduce Safety Bias Rate (SBR), a task-aware metric that measures how often harmful content is incorrectly judged non-misogynistic.",
+    collaborators: ["P Katari", "Moushami", "D Varshney"],
+    linkLabel: "Request Access",
+  },
+  {
+    id: "p5",
+    title: "ALARM: Multimodal Fake News Detection using MLLM through Active Learning",
+    paperUrl: "",
+    imageUrl: alarmImage,
+    description: "ALARM is an active learning framework for multimodal fake news detection that targets domain shift while sharply reducing annotation cost. Instead of relying only on predictive uncertainty, it uses semantic disagreement between a base detector and a multimodal large language model to surface samples with the highest adaptation value, yielding stronger cross-domain generalization and competitive detection performance with a substantially smaller labeling budget than conventional active learning pipelines.",
+    collaborators: ["S K Tah", "A Singh", "P Katari", "A Agarwala"],
+    linkLabel: "Request Access",
+  },
+  {
+    id: "p6",
+    title: "HybridNet: Efficient Multimodal Fake News Detection",
+    paperUrl: "",
+    imageUrl: hybridNetImage,
+    description: "HybridNet presents a reasoning-aware multimodal fake news detection pipeline that pairs the efficiency of compact vision-language representations with the interpretability of frozen MLLMs used as structured reasoning extractors. By performing consistency analysis across image-text, image-image, and text-text evidence before fusing those signals in a lightweight Reasoning-Aware Classifier, the framework delivers strong multimodal misinformation detection with lower annotation requirements and a more scalable compute profile than end-to-end MLLM fine-tuning.",
+    collaborators: ["S K Tah", "A Singh", "P Katari", "A Agarwala", "S Biswas", "L Gupta"],
+    linkLabel: "Request Access",
+  },
   {
     id: "p1",
     title: "MedProm: Bridging Dialogue Gaps in Healthcare with Knowledge-Enhanced Generative Models",
     venue: "ACM Transactions on Computing for Healthcare",
     paperUrl: "https://dl.acm.org/doi/10.1145/3715069",
     imageUrl: image2, // Placeholder for ./images/p2.png
-    description: "MedProm is a knowledge-enhanced generative model for medical dialogue systems, integrating the MediConnect Graph to improve context-aware responses. It leverages BioGPT and curriculum learning for precise, coherent, and medically relevant conversations.",
+    description: "MedProm is a knowledge-enhanced medical dialogue framework that couples generative language modeling with the MediConnect Graph to inject clinically relevant structure into response generation. By combining biomedical pretraining with curriculum-based optimization, the system produces responses that are more context-aware, coherent, and medically grounded, helping reduce knowledge gaps that often limit open-ended healthcare conversation systems.",
     collaborators: ["D Varshney", "N Behera", "P Katari", "A Ekbal"],
+    linkLabel: "Paper",
   },
   {
     id: "p2",
@@ -121,7 +162,8 @@ export const RESEARCH_PAPERS: ResearchPaper[] = [
     venue: "CLEF 2022, Bologna, Italy",
     paperUrl: "https://ceur-ws.org/Vol-3180/paper-55.pdf",
     imageUrl:image1, // Placeholder for ./images/p1.png
-    description: "A Multimodal BERT-based approach for identifying claim check-worthiness, verifiability, and harmful content in tweets, achieving top-3 ranks in CheckThat! Lab 2022.",
+    description: "This paper develops a multimodal BERT-based approach for identifying claim check-worthiness, verifiability, and potentially harmful content in noisy social media posts by jointly modeling textual and visual cues in tweets. Designed for the CLEF CheckThat! Lab setting, the system demonstrates that multimodal evidence substantially strengthens fine-grained claim analysis and helped secure top-tier performance across multiple shared-task rankings.",
     collaborators: ["M Suri", "P Katari", "S Dudeja"],
+    linkLabel: "Paper",
   },
 ];
